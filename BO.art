@@ -1,0 +1,43 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  proiect_osc_triunghiular.brd*
+G04 Film Name:    BO*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.4-S028*
+G04 Origin Date:  Sat Dec 10 20:25:24 2022*
+G04 *
+G04 Layer:  DRAWING FORMAT/OUTLINE*
+G04 Layer:  DRAWING FORMAT/DRAWING_ORIGIN*
+G04 Layer:  BOARD GEOMETRY/DIMENSION*
+G04 Layer:  BOARD GEOMETRY/DESIGN_OUTLINE*
+G04 *
+G04 Offset:    (0.00 0.00)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     4.00*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%AMMACRO10*
+1,1,.004,.025,0.0*
+20,1,.004,.025,0.0,-.025,0.0,0.0*
+1,1,.004,-.025,0.0*
+1,1,.004,0.0,.025*
+20,1,.004,0.0,.025,0.0,-.025,0.0*
+1,1,.004,0.0,-.025*
+%
+%ADD10MACRO10*%
+%ADD11C,.004*%
+G75*
+%LPD*%
+G75*
+G54D10*
+X0Y0D03*
+G54D11*
+G01D02*
+Y157480D01*
+X157480D01*
+Y0D01*
+X0D01*
+M02*
